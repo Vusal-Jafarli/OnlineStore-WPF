@@ -1,0 +1,184 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Multimedia\Beverages.jpg" />
+    <None Remove="Multimedia\Beverages\Coke.jpg" />
+    <None Remove="Multimedia\Beverages\DietCoke.jpg" />
+    <None Remove="Multimedia\Beverages\DrPepepr.jpg" />
+    <None Remove="Multimedia\Beverages\Fanta.jpg" />
+    <None Remove="Multimedia\Beverages\Lemonade.jpg" />
+    <None Remove="Multimedia\Beverages\MangoPineApple.jpg" />
+    <None Remove="Multimedia\Beverages\Sprite.jpg" />
+    <None Remove="Multimedia\Beverages\StrawberryBanana.jpg" />
+    <None Remove="Multimedia\Beverages\SweetTea.jpg" />
+    <None Remove="Multimedia\Burgers.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\BBQ.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Fries.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\HoneyMustard.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Ketchup.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Mayo.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Mustard.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Nuggets.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Nuggets3.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Ranch.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Sour&amp;Sweet.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Spicy.jpg" />
+    <None Remove="Multimedia\Fries&amp;Sides\Sweet&amp;Spicy.jpg" />
+    <None Remove="Multimedia\FriesandSides.jpg" />
+    <None Remove="Multimedia\logo.jpg" />
+    <None Remove="Multimedia\MainPhotos\mcdonalds.png" />
+    <None Remove="Multimedia\MainPhotos\plus %282%29.png" />
+    <None Remove="Multimedia\MainPhotos\shopping-cart %282%29.png" />
+    <None Remove="Multimedia\MainPhotos\shopping-cart.png" />
+    <None Remove="Multimedia\MainPhotos\wallpaper.jpg" />
+    <None Remove="Multimedia\Meals\CheeseBacon.jpg" />
+    <None Remove="Multimedia\Meals\CheeseBurger.jpg" />
+    <None Remove="Multimedia\Meals\DoubleCheeseBuregr.jpg" />
+    <None Remove="Multimedia\Meals\DoubleQuarterPounderwithCheese].jpg" />
+    <None Remove="Multimedia\Meals\Filet-OFish.jpg" />
+    <None Remove="Multimedia\Meals\Hamburger.jpg" />
+    <None Remove="Multimedia\Meals\Header_BigMac_832x472_1-4-product-tile-desktop.jpg" />
+    <None Remove="Multimedia\Meals\McCrispy.jpg" />
+    <None Remove="Multimedia\Meals\McDouble.jpg" />
+    <None Remove="Multimedia\search_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Multimedia\Fries&amp;Sides\Fries.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Nuggets.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Nuggets3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\mcdonalds.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\plus (2).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Multimedia\Beverages\Coke.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\DietCoke.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\DrPepepr.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\Fanta.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\Lemonade.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\MangoPineApple.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\Sprite.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\StrawberryBanana.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Beverages\SweetTea.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\BBQ.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\HoneyMustard.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Ketchup.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Mayo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Mustard.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Ranch.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Sour&amp;Sweet.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Spicy.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Fries&amp;Sides\Sweet&amp;Spicy.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\Beverages.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\Burgers.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\FriesandSides.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\logo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\search_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\shopping-cart (2).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\shopping-cart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\MainPhotos\wallpaper.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\CheeseBacon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\CheeseBurger.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\DoubleCheeseBuregr.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\DoubleQuarterPounderwithCheese].jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\Filet-OFish.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\Hamburger.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\Header_BigMac_832x472_1-4-product-tile-desktop.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\McCrispy.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Multimedia\Meals\McDouble.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="ViewModels\WindowsViewModels\" />
+  </ItemGroup>
+
+</Project>
